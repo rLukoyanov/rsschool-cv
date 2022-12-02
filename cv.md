@@ -17,7 +17,7 @@ React, Redux, NextJS, TypeScript, JavaScript, Angular, HTML, CSS/SCSS, Linux, Gi
 
 # Code examples
 
-```
+```js
 
 function humanReadable(seconds) {
     const addZero = n => n < 10 ? '0' + n : n;

@@ -2,10 +2,10 @@
 
 ### Contacts
 
-- Telegram: <a href='https://t.me/rlukoyanov'>@rLukoyanov</a></li>
-- E-mail: ruslanLukoanov0@gmail.com</li>
-- linkedIn: <a href='https://www.linkedin.com/in/rlukoyanov/'>rLukoyanov</a></li>
-- Github: <a href='https://github.com/rLukoyanov'>rLukoyanov</a></li>
+- Telegram: <a href='https://t.me/rlukoyanov'>@rLukoyanov</a>
+- E-mail: ruslanLukoanov0@gmail.com
+- linkedIn: <a href='https://www.linkedin.com/in/rlukoyanov/'>rLukoyanov</a>
+- Github: <a href='https://github.com/rLukoyanov'>rLukoyanov</a>
 
 # About me
 

@@ -25,6 +25,7 @@
 </code>
 6. 
 <h3>Frontend Developer Volonteria</h3>
+    <a href="https://github.com/ruslanTwink/Volonteria">GitHub</a>
 <ul>
   <li>Working with forms</li>
   <li>Components development using Figma</li>
@@ -41,5 +42,6 @@
   <li> Setting up environment for project</li>
   <li> Work with layouts in Figma</li>
 </ul>
-7. Skillbox - Frontend-developer.
-8. A2-B1, studied at a school English language. Communicated with a native speaker
+7. Skillbox - Frontend-developer
+</br>
+8. A2-B1, studied English language at school. Communicated with a native speaker

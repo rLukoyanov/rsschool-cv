@@ -1,13 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Ruslan Lukoyanov</h1>
+      </header>
+
+      <img alt="Ruslan Lukoyanov" src="./Avatar.heic" />
+      <section class="contacts">
+        <h2 class="contacts_title title">contacts</h2>
+        <ul>
+          <li>Telegram: <a href="https://t.me/rlukoyanov">@rLukoyanov</a></li>
+          <li>E-mail: ruslanLukoanov0@gmail.com</li>
+          <li>
+            linkedIn:
+            <a href="https://www.linkedin.com/in/rlukoyanov/">rLukoyanov</a>
+          </li>
+          <li>
+            Github: <a href="https://github.com/rLukoyanov">rLukoyanov</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="title">About me</h2>
+        <p>
+          I`m 18 years old. I want to work in a large company and become one of
+          the most popular programmer in the World. Participant of Hackatons. I
+          like learning something new.
+        </p>
+        <h2>My Skills</h2>
+        <p>
+          React, Redux, NextJS, TypeScript, JavaScript, Angular, HTML, CSS/SCSS,
+          Linux, Git.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="title">Code examples</h2>
+        <pre>
+          <code>
+        
+              function humanReadable(seconds) {
+                  const addZero = (n) => (n \< 10 ? "0" + n : n);
+              
+                  let minutes = 0;
+                  let hours = 0;
+              
+                  if (seconds > 59) {
+                  minutes = Math.floor(seconds / 60);
+                  seconds = seconds % 60;
+                  if (minutes > 59) {
+                      hours = Math.floor(minutes / 60);
+                      minutes = minutes % 60;
+                      }
+                  }
+                  return addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds);
+              }
+      
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h2 class="title">My work Experience</h2>
+        <h3>Frontend Developer Volonteria</h3>
+        <ul>
+          <a href="https://github.com/ruslanTwink/Volonteria">GitHub</a>
+          <li>- Working with forms</li>
+          <li>- Components development using Figma</li>
+          <li>- Setting up environment for project</li>
+          <li>- Custom components library development</li>
+          <li>- API development</li>
+          <li>- Writing documentation</li>
+        </ul>
+        <h3>Frontend Developer Security Band</h3>
+        <ul>
+          <li>- Work with graphs</li>
+          <li>- Components development according specification</li>
+          <li>- API development</li>
+          <li>- Setting up environment for project</li>
+          <li>- Work with layouts in Figma</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="title">Education</h2>
+        <p>Skillbox - Frontend-developer</p>
+      </section>
+
+      <section>
+        <h2 class="title">Languages</h2>
+        <p>
+          A2, studied English language at school. Communicated with a native
+          speaker
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="rsSchool" />
+      </a>
+    </footer>
+  </body>
 </html>

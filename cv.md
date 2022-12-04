@@ -2,10 +2,10 @@
 
 ### Contacts
 
-- Telegram: <a href='https://t.me/rlukoyanov'>@rLukoyanov</a></li>
-- E-mail: ruslanLukoanov0@gmail.com</li>
-- linkedIn: <a href='https://www.linkedin.com/in/rlukoyanov/'>rLukoyanov</a></li>
-- Github: <a href='https://github.com/rLukoyanov'>rLukoyanov</a></li>
+- Telegram: <a href='https://t.me/rlukoyanov'>@rLukoyanov</a>
+- E-mail: ruslanLukoanov0@gmail.com
+- linkedIn: <a href='https://www.linkedin.com/in/rlukoyanov/'>rLukoyanov</a>
+- Github: <a href='https://github.com/rLukoyanov'>rLukoyanov</a>
 
 # About me
 
@@ -18,25 +18,22 @@ React, Redux, NextJS, TypeScript, JavaScript, Angular, HTML, CSS/SCSS, Linux, Gi
 # Code examples
 
 ```js
-
 function humanReadable(seconds) {
-    const addZero = n => n < 10 ? '0' + n : n;
+  const addZero = (n) => (n < 10 ? "0" + n : n);
 
-    let minutes = 0;
-    let hours = 0;
+  let minutes = 0;
+  let hours = 0;
 
-    if (seconds > 59){
-        minutes = Math.floor(seconds / 60);
-        seconds = seconds % 60;
-        if (minutes > 59) {
-            hours = Math.floor(minutes / 60);
-            minutes = minutes % 60;
-        }
+  if (seconds > 59) {
+    minutes = Math.floor(seconds / 60);
+    seconds = seconds % 60;
+    if (minutes > 59) {
+      hours = Math.floor(minutes / 60);
+      minutes = minutes % 60;
     }
-    return addZero(hours) + ':' + addZero(minutes) + ':' + addZero(seconds);
-
+  }
+  return addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds);
 }
-
 ```
 
 # My work Experience
